@@ -63,7 +63,6 @@ _________
 - ALT+SHIFT+UP: select text in bracket
 - ALT+SHIFT+DOWN: select text in bracket
 
-- COMMAND+K+B: toggle sidebar
 - COMMAND+K+U: uppercase
 - COMMAND+K+L: lowercase
 
