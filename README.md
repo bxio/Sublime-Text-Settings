@@ -23,47 +23,52 @@ tailored for that environment. Don't forget to disable the Mission Control Keybo
 ##Keyboard shortcuts based on settings in this repository
 
 ###Mac OS X
-This is my main system.
+*Tested in Mac OS X: super == command*
 
-COMMAND-.: Opens Default (OSX) Keybindings.
-COMMAND-SHIFT-P: command panel
-COMMAND-P: open project (package: Goto Folder)
-COMMAND-O: Clone file (opens a new view of the file)
-COMMAND-V: paste and indent
-COMMAND-ENTER: new line (below)
-COMMAND-SHIFT-ENTER: new line (above)
-COMMAND-Q: duplicate line
-COMMAND-J: join lines
-COMMAND-L: select line
+Open/Goto
+_________
+- COMMAND+.: Opens Default (OSX) Keybindings.
+- COMMAND+SHIFT+P: command panel
+- COMMAND+P: open project (package: Goto Folder)
+- COMMAND+O: Clone file (opens a new view of the file)
+- COMMAND+V: paste and indent
+- COMMAND+ENTER: new line (below)
+- COMMAND+SHIFT+ENTER: new line (above)
+- COMMAND+Q: duplicate line
+- COMMAND+J: join lines
+- COMMAND+L: select entire line
 
-**Comments**
-COMMAND-/: Toggle line Comment/Uncomment (Single line // comments)
-COMMAND-SHIFT-/: Toggle line Comment/Uncomment, (/*Block comments*/)
+Comments
+_________
+- COMMAND+/: Toggle line Comment/Uncomment (Single line // comments)
+- COMMAND+SHIFT+/: Toggle line Comment/Uncomment, (/*Block comments*/)
 
-**Selection**
+Selection
+_________
+- COMMAND+D: select word. Invoke again to select the next instance of the word.
 
-COMMAND-D: select word
-COMMAND-Z: soft undo
-COMMAND-Y: soft redo
+Behaviour
+_________
+- COMMAND+SHIFT+Z: redo
 
-COMMAND-W: toggle wordwrap
+- CTRL+/: soft undo (Jumps to the place you made the edit. Invoke it again to undo the change.)
+- CTRL+SHIFT+/: soft redo
 
-COMMAND-[: goto previous edit (package Edit History)
-COMMAND-]: goto next edit (package Edit History)
-COMMAND-R: goto symbol
-COMMAND-G: goto line number
+- COMMAND+R: goto symbol
+- COMMAND+G: goto line number
+- COMMAND+M: jump to matching brackets
 
-ALT-UP: goto previous bracket (package: BracketHighlighter)
-ALT-DOWN: goto next bracket (package: BracketHighlighter)
-ALT-SHIFT-UP: select text in bracket (package: BracketHighlighter)
-ALT-SHIFT-DOWN: select text in bracket (package: BracketHighlighter)
+- ALT+UP: goto previous bracket
+- ALT+DOWN: goto next bracket
+- ALT+SHIFT+UP: select text in bracket
+- ALT+SHIFT+DOWN: select text in bracket
 
-COMMAND-K-B: toggle sidebar
-COMMAND-K-U: uppercase
-COMMAND-K-L: lowercase
+- COMMAND+K+B: toggle sidebar
+- COMMAND+K+U: uppercase
+- COMMAND+K+L: lowercase
 
-COMMAND-F: find in file (F3: jump to next occurence)
-COMMAND-SHIFT-F: find in project (F4: jump to next occurence)
+- COMMAND+F: find in file (F3: jump to next occurence)
+- COMMAND+SHIFT+F: find in project (F4: jump to next occurence)
 
 ###Windows
 None so far. I don't use Windows.

@@ -68,11 +68,11 @@
 	{ "keys": ["ctrl+shift+v"], "command": "move", "args": {"by": "pages", "forward": true, "extend": true} },
 
 	// undo and redo
-	{ "keys": ["ctrl+/"], "command": "undo"},
-	{ "keys": ["ctrl+shift+/"], "command": "redo"},
+	{ "keys": ["ctrl+/"], "command": "soft_undo"},
+	{ "keys": ["ctrl+shift+/"], "command": "soft_redo"},
 
-	{ "keys": ["super+z"], "command": "soft_undo" },
-	{ "keys": ["super+shift+z"], "command": "soft_redo" },
+	{ "keys": ["super+z"], "command": "undo" },
+	{ "keys": ["super+shift+z"], "command": "redo" },
 	{ "keys": ["super+j","super+alt+up"], "command": "join_lines" },
 	//Duplicate Line
 	{ "keys": ["super+q","super+alt+down"], "command": "duplicate_line" },
