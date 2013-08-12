@@ -1,0 +1,14 @@
+{
+	"installed_packages":
+	[
+		"GitGutter",
+		"nginx",
+		"Package Control",
+		"PersistentRegexHighlight",
+		"Strapdown Markdown Preview",
+		"SublimeLinter",
+		"Themr",
+		"Tomorrow Color Schemes",
+		"Twitter Bootstrap Snippets"
+	]
+}

@@ -1,0 +1,29 @@
+/*
+    Markdown Preview default settings
+*/
+{
+    /*
+        Sets the default opener for html files
+    */
+    "browser": "default",
+
+    /*
+        Sets the default parser for converting markdown to html.
+        Warning for github API : if you have a ST2 linux build, Python is not built with SSL o it may not work
+
+        default - Use the builtin python-markdown2 parser
+        github - User github API to convert markdown, so you can use GitHub flavored Markdown, see http://github.github.com/github-flavored-markdown/
+    */
+    "parser": "github",
+
+    /*
+        Enable or not highlight.js support for syntax highlighting.
+    */
+    "enable_highlight": true
+
+    /*
+        Uses an OAuth token to when parsing markdown with GitHub API. To create one for Markdown Preview, see https://help.github.com/articles/creating-an-oauth-token-for-command-line-use.
+    */
+    //"github_oauth_token": "revoked"
+
+}

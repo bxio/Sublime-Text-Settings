@@ -1,0 +1,95 @@
+/* originally from https://github.com/bxio/Sublime-Text-Settings */
+[
+	{ "keys": ["super+."], "command": "open_file", "args": {"file": "${packages}/User/Default (OSX).sublime-keymap"} },
+
+	// Indent/Reindent
+	{ "keys": ["super+shift+r"], "command": "reindent" , "args": {"single_line": false}},
+	{ "keys": ["super+shift+a"], "command": "alignment" },
+
+	// Trigger Markdown Preview Plugin with alt+m
+	{ "keys": ["alt+m","super+shift+m"], "command": "markdown_preview", "args": {"target": "browser"} },
+	// Reopen Last Tab
+	{ "keys": ["super+shift+t"], "command": "reopen_last_file" },
+
+	// Mission Control bindings compatibility.
+	{ "keys": ["ctrl+alt+1"], "command": "focus_group", "args": { "group": 0 } },
+	{ "keys": ["ctrl+alt+2"], "command": "focus_group", "args": { "group": 1 } },
+	{ "keys": ["ctrl+alt+3"], "command": "focus_group", "args": { "group": 2 } },
+	{ "keys": ["ctrl+alt+4"], "command": "focus_group", "args": { "group": 3 } },
+	{ "keys": ["ctrl+alt+5"], "command": "focus_group", "args": { "group": 4 } },
+	{ "keys": ["ctrl+alt+6"], "command": "focus_group", "args": { "group": 5 } },
+	{ "keys": ["ctrl+alt+7"], "command": "focus_group", "args": { "group": 6 } },
+	{ "keys": ["ctrl+alt+8"], "command": "focus_group", "args": { "group": 7 } },
+	{ "keys": ["ctrl+alt+9"], "command": "focus_group", "args": { "group": 8 } },
+
+	{"keys": ["ctrl+backspace"],"command": "delete_subwords","args": {"forward": false} },
+
+	{ "keys": ["super+k", "super+'"], "command": "change_quotes" },
+
+	 // Edit history
+	/*	{ "keys": ["super+ctrl+left"], "command": "previous_edit" },
+	{ "keys": ["super+ctrl+right"], "command": "next_edit" },*/
+
+	{ "keys": ["ctrl+shift+n"], "command": "new_window" },
+	{ "keys": ["shift+enter"], "command": "insert", "args": {"characters": "\n"} },
+
+	// swap the keybindings for paste and paste_and_indent
+	{ "keys": ["super+v"], "command": "paste_and_indent" },
+	{ "keys": ["super+shift+v"], "command": "paste" },
+
+	{ "keys": ["super+0"], "command": "reset_font_size" },
+	{ "keys": ["ctrl+o"], "command": "clone_file" },
+
+	// close all other tabs
+	{ "keys": ["super+alt+w"], "command": "close_other_tabs"},
+
+	// Standard Move
+	//Left and Right
+	{ "keys": ["ctrl+s"], "command": "move", "args": {"by": "words", "forward": true} },
+	{ "keys": ["ctrl+shift+s"], "command": "move", "args": {"by": "words", "forward": true, "extend": true} },
+	{ "keys": ["ctrl+a"], "command": "move", "args": {"by": "words", "forward": false} },
+	{ "keys": ["ctrl+shift+a"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
+	//Up and Down
+	{ "keys": ["ctrl+p"], "command": "move", "args": {"by": "lines", "forward": false} },
+	{ "keys": ["ctrl+shift+p"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true} },
+	{ "keys": ["ctrl+l"], "command": "move", "args": {"by": "lines", "forward": true} },
+	{ "keys": ["ctrl+shift+l"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true} },
+
+	// Move between Start and End of line
+	{ "keys": ["ctrl+w"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+	{ "keys": ["ctrl+shift+w"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+	{ "keys": ["ctrl+e"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+	{ "keys": ["ctrl+shift+e"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+
+	// Scrolling up and down
+	{ "keys": ["alt+v"], "command": "move", "args": {"by": "pages", "forward": false} },
+	{ "keys": ["alt+shift+v"], "command": "move", "args": {"by": "pages", "forward": false, "extend": true} },
+	{ "keys": ["ctrl+v"], "command": "move", "args": {"by": "pages", "forward": true} },
+	{ "keys": ["ctrl+shift+v"], "command": "move", "args": {"by": "pages", "forward": true, "extend": true} },
+
+	// undo and redo
+	{ "keys": ["ctrl+/"], "command": "undo"},
+	{ "keys": ["ctrl+shift+/"], "command": "redo"},
+
+	{ "keys": ["super+z"], "command": "soft_undo" },
+	{ "keys": ["super+shift+z"], "command": "soft_redo" },
+	{ "keys": ["super+j","super+alt+up"], "command": "join_lines" },
+	//Duplicate Line
+	{ "keys": ["super+q","super+alt+down"], "command": "duplicate_line" },
+
+// Comment Blocks
+	// Toggle Comment Blocks
+	{ "keys": ["super+/"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["shift+super+/"], "command": "toggle_comment", "args": { "block": true } },
+
+	// Large comment block shortcut
+	{ "keys": ["ctrl+shift+b"], "command": "insert_snippet", "args": {"contents": "${TM_COMMENT_START/s*$//}====${1/./=/g}====${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//}=== ${1:Banner} ===${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//}====${1/./=/g}====${TM_COMMENT_END/^s*(.+)/ $1/}"}},
+
+	// Medium comment block shortcut
+	{ "keys": ["ctrl+shift+c"], "command": "insert_snippet", "args": {"contents": "${TM_COMMENT_START/s*$//}=== ${1:Banner} ===${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//}====${1/./=/g}====${TM_COMMENT_END/^s*(.+)/ $1/}"}},
+
+	// Small comment block shortcut
+	{ "keys": ["ctrl+shift+x"], "command": "insert_snippet", "args": {"contents": "${TM_COMMENT_START/s*$//}=== ${1:Banner} ===${TM_COMMENT_END/^s*(.+)/ $1/}"}},
+
+
+	]
