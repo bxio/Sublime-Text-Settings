@@ -27,47 +27,59 @@ tailored for that environment. Don't forget to disable the Mission Control Keybo
 
 Open/Goto
 _________
-- COMMAND+.: Opens Default (OSX) Keybindings.
-- COMMAND+SHIFT+P: command panel
-- COMMAND+P: open project (package: Goto Folder)
-- COMMAND+O: Clone file (opens a new view of the file)
-- COMMAND+V: paste and indent
-- COMMAND+ENTER: new line (below)
-- COMMAND+SHIFT+ENTER: new line (above)
-- COMMAND+Q: duplicate line
-- COMMAND+J: join lines
-- COMMAND+L: select entire line
+- SUPER+.: Opens Default (OSX) Keybindings.
+- SUPER+SHIFT+P: command panel
+- SUPER+P: open project (package: Goto Folder)
+- SUPER+O: Clone file (opens a new view of the file)
+- SUPER+V: paste and indent
 
-Comments
+Editing
 _________
-- COMMAND+/: Toggle line Comment/Uncomment (Single line // comments)
-- COMMAND+SHIFT+/: Toggle line Comment/Uncomment, (/*Block comments*/)
-
-Selection
-_________
-- COMMAND+D: select word. Invoke again to select the next instance of the word.
-
-Behaviour
-_________
-- COMMAND+SHIFT+Z: redo
+- SUPER+SHIFT+R: Reindent document
+- SUPER+SHIFT+A: Alignment
+- SUPER+ENTER: new line (below)
+- SUPER+SHIFT+ENTER: new line (above)
+- SUPER+SHIFT+T: Reopen last closed tab
+- SUPER+Q: duplicate line
+- SUPER+J: join lines
+- SUPER+L: select entire line
+- SUPER+K: Change Quote
+- SUPER+V: Paste and Indent
 
 - CTRL+/: soft undo (Jumps to the place you made the edit. Invoke it again to undo the change.)
 - CTRL+SHIFT+/: soft redo
+- SUPER+SHIFT+Z: redo
 
-- COMMAND+R: goto symbol
-- COMMAND+G: goto line number
-- COMMAND+M: jump to matching brackets
+- SUPER+R: goto symbol
+- SUPER+G: goto line number
+- SUPER+M: jump to matching brackets
 
-- ALT+UP: goto previous bracket
-- ALT+DOWN: goto next bracket
-- ALT+SHIFT+UP: select text in bracket
-- ALT+SHIFT+DOWN: select text in bracket
+Selection
+_________
+- CTRL+W: Move to Beginning of line
+- CTRL+E: Move to End of line
+- CTRL+S: Move one word forward
+- CTRL+A: Move one word back
+- CTRL+P: Move up one line
+- CTRL+L: Move down one line
+- ALT+V: Move one page up
+- CTRL+V: Move one page down
+Use SHIFT with any of the above to select as well as move.
+- SUPER+D: select word. Invoke again to select the next instance of the word.
+- CTRL+ALT+[1-9]: Change to Focus Group 1-9.
 
-- COMMAND+K+U: uppercase
-- COMMAND+K+L: lowercase
+Comments
+_________
+- SUPER+/: Toggle line Comment/Uncomment (Single line // comments)
+- SUPER+SHIFT+/: Toggle line Comment/Uncomment, (/*Block comments*/)
+- CTRL+SHIFT+X: Insert small comment block
+- CTRL+SHIFT+C: Insert small comment block
+- CTRL+SHIFT+B: Insert small comment block
 
-- COMMAND+F: find in file (F3: jump to next occurence)
-- COMMAND+SHIFT+F: find in project (F4: jump to next occurence)
+Behaviour
+_________
+- SUPER+K+U: uppercase
+- SUPER+K+L: lowercase
 
 ###Windows
 None so far. I don't use Windows.
