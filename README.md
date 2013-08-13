@@ -1,9 +1,8 @@
 # [Bill Xiong's](http://billxiong.com) [Sublime Text 3](http://www.sublimetext.com/3) Settings
 ---------------------
-
 [Sublime Text](http://www.sublimetext.com/) is my main editor.
 
-This is the repository for the folder `~/Library/Application Support/Sublime Text 3/Packages/User` on my Mac OS X machine.
+This is the folder `~/Library/Application Support/Sublime Text 3/Packages/User` on my Mac OS X machine.
 
 ## Installation
 * [Download][1] and install Sublime Text 3 (dev channel)
@@ -17,8 +16,9 @@ git clone git@github.com:bxio/sublime-settings.git ~/Library/Application Support
 * Restart Sublime Text.
 
 ## Environment
-I primarily run Sublime on Mac OS X, so most settings are
-tailored for that environment. Don't forget to disable the Mission Control Keyboard Shortcuts under System Preferences!
+I primarily run Sublime on Mac OS X, so most settings are tailored for that environment.
+Most of my coding is done in Colemak, however, I use Sublime Text on Qwerty as well, so the keybindings are done in such a way to help me work more optimally in both keyboard layouts.
+Don't forget to disable the Mission Control Keyboard Shortcuts under System Preferences!
 
 ##Keyboard shortcuts based on settings in this repository
 
@@ -45,28 +45,42 @@ _________
 - SUPER+L: select entire line
 - SUPER+K: Change Quote
 - SUPER+V: Paste and Indent
-
 - CTRL+/: soft undo (Jumps to the place you made the edit. Invoke it again to undo the change.)
 - CTRL+SHIFT+/: soft redo
 - SUPER+SHIFT+Z: redo
-
 - SUPER+R: goto symbol
 - SUPER+G: goto line number
 - SUPER+M: jump to matching brackets
 
 Selection
-_________
-- CTRL+W: Move to Beginning of line
-- CTRL+E: Move to End of line
-- CTRL+S: Move one word forward
-- CTRL+A: Move one word back
-- CTRL+P: Move up one line
-- CTRL+L: Move down one line
-- ALT+V: Move one page up
-- CTRL+V: Move one page down
-Use SHIFT with any of the above to select as well as move.
+---------
+- CTRL+W: Move cursor to Beginning of line
+- CTRL+E: Move cursor to End of line
+- CTRL+S: Move cursor one word forward
+- CTRL+A: Move cursor one word back
+- CTRL+P: Move cursor up one line
+- CTRL+L: Move cursor down one line
+
+Use SHIFT + any of the above keys to select as well as move.
+
+Scrolling and Editing
+---------
+- ALT+B: Move one page up
+- CTRL+B: Move one page down
+- ALT+Up: Scroll screen three lines up
+- ALT+Down: Scroll screen three lines down
+- SUPER+ALT+UP: Add to the selection the line above at the same position
+- SUPER+ALT+DOWN: Add to the selection the line below at the same position
 - SUPER+D: select word. Invoke again to select the next instance of the word.
 - CTRL+ALT+[1-9]: Change to Focus Group 1-9.
+- F1: Fold Selection
+- F2: Expand Selection
+- F3: Add
+
+Jump and Select
+---------
+- SUPER+;: Go to Definition
+- SUPER+F: Incremental Search
 
 Comments
 _________
@@ -76,7 +90,7 @@ _________
 - CTRL+SHIFT+C: Insert small comment block
 - CTRL+SHIFT+B: Insert small comment block
 
-Behaviour
+Case-changing
 _________
 - SUPER+K+U: uppercase
 - SUPER+K+L: lowercase
