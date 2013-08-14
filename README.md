@@ -53,7 +53,7 @@ _________
 - SUPER+M: jump to matching brackets
 
 Selection
----------
+_________
 - CTRL+W: Move cursor to Beginning of line
 - CTRL+E: Move cursor to End of line
 - CTRL+S: Move cursor one word forward
@@ -64,7 +64,7 @@ Selection
 Use SHIFT + any of the above keys to select as well as move.
 
 Scrolling and Editing
----------
+_________
 - ALT+B: Move one page up
 - CTRL+B: Move one page down
 - ALT+Up: Scroll screen three lines up
@@ -78,7 +78,7 @@ Scrolling and Editing
 - F3: Add
 
 Jump and Select
----------
+_________
 - SUPER+;: Go to Definition
 - SUPER+F: Incremental Search
 
