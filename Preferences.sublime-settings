@@ -103,12 +103,12 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Themr",
-		"Theme - Flatland",
 		"BracketHighlighter",
-		"Vintage",
+		"Themr",
 		"SublimeLinter",
-		"Theme - Soda"
+		"Theme - Soda",
+		"Theme - Flatland",
+		"Vintage"
 	],
 	"indent_guide_options":
 	[

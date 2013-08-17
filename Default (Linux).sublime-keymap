@@ -1,3 +1,4 @@
+/* originally from https://github.com/bxio/Sublime-Text-Settings */
 [
 	// Select multiple lines as in Windows
 	{ "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },

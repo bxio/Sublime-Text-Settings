@@ -96,10 +96,18 @@ _________
 - SUPER+K+L: lowercase
 
 ###Windows
-None so far. I don't use Windows.
+Mainly just a port from the python IDE workspace. It's not customized as much because I don't code in Windows that often.
 
 ###Linux
 More to come.
+
+## Custom Icons
+I found some lovely replacement icons from [gpopper](http://gpopper.deviantart.com/art/Sublime-Text-Replacement-372504046)
+Place these under `Sublime Text.app/Resources` to see them take effect. Every time you update Sublime Text, you'll have to reimport the icons.
+
+Don't forget to rename the icon you want to `Sublime Text.icns`!
+
+
 
 [1]: http://www.sublimetext.com/dev "Sublimte Text 3 - Dev Builds"
 [2]: http://wbond.net/sublime_packages/package_control/installation "Package Control Installation"

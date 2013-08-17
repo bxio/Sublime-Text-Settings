@@ -13,7 +13,6 @@
 
 	// Indent/Reindent
 	{ "keys": ["super+shift+r"], "command": "reindent" , "args": {"single_line": false}},
-	{ "keys": ["super+shift+i"], "command": "reindent" , "args": {"single_line": true}},
 	{ "keys": ["super+shift+a"], "command": "alignment" },
 
 	// Trigger Markdown Preview Plugin with
@@ -34,10 +33,13 @@
 
 	{ "keys": ["ctrl+backspace"],"command": "delete_subwords","args": {"forward": false} },
 
-	{ "keys": ["super+k", "super+'"], "command": "change_quotes" },
-
 	{ "keys": ["backspace"], "command": "left_delete" },
 	{ "keys": ["shift+backspace"], "command": "right_delete" },
+
+	{ "keys": ["ctrl+k", "ctrl+b"], "command": "toggle_side_bar" },
+	{ "keys": ["f11"], "command": "toggle_full_screen" },
+	{ "keys": ["shift+f11"], "command": "toggle_distraction_free" },
+
 
 // Edit history
 	/*	{ "keys": ["super+ctrl+left"], "command": "previous_edit" },
@@ -83,14 +85,14 @@
 	{ "keys": ["alt+down"], "command": "scroll_lines", "args": {"amount": -3.0 } },
 
 // undo and redo
-	{ "keys": ["super+alt+z"], "command": "undo"},
+	{ "keys": ["super+z"], "command": "undo" },
+	{ "keys": ["super+shift+z","super+y"], "command": "redo_or_repeat" },
+	{ "keys": ["super+alt+z","super+u"], "command": "soft_undo"},
 	{ "keys": ["super+alt+shift+z"], "command": "soft_redo"},
-	{ "keys": ["super+z"], "command": "soft_undo" },
-	{ "keys": ["super+shift+z"], "command": "redo" },
 	//Go to Definition (jump to where method is defined)
 	{ "keys": ["super+;"], "command": "goto_definition" },
 	//Always use incremental search (Finds the next occurance. Enter dismisses the search. To toggle between results, invoke SUPER+F again.)
-	{ "keys": ["super+f"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
+	//{ "keys": ["super+f"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
 
 // Comment Blocks
 	// Toggle Comment Blocks
@@ -106,4 +108,4 @@
 	// Large comment block shortcut
 	{ "keys": ["ctrl+shift+v"], "command": "insert_snippet", "args": {"contents": "${TM_COMMENT_START/s*$//}====${1/./=/g}====${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//}=== ${1:Banner} ===${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//}====${1/./=/g}====${TM_COMMENT_END/^s*(.+)/ $1/}"}},
 
-	]
+]

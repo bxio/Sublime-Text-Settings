@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"Alignment",
 		"GitGutter",
 		"nginx",
 		"Package Control",

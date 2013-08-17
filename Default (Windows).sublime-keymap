@@ -1,3 +1,4 @@
+/* originally from https://github.com/bxio/Sublime-Text-Settings */
 [
 {"keys": ["alt+shift+w"],"command": "close_all"},
 
