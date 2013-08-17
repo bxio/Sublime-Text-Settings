@@ -32,9 +32,12 @@
 	{ "keys": ["ctrl+alt+8"], "command": "focus_group", "args": { "group": 7 } },
 	{ "keys": ["ctrl+alt+9"], "command": "focus_group", "args": { "group": 8 } },
 
-	{"keys": ["ctrl+backspace"],"command": "delete_subwords","args": {"forward": false} },
+	{ "keys": ["ctrl+backspace"],"command": "delete_subwords","args": {"forward": false} },
 
 	{ "keys": ["super+k", "super+'"], "command": "change_quotes" },
+
+	{ "keys": ["backspace"], "command": "left_delete" },
+	{ "keys": ["shift+backspace"], "command": "right_delete" },
 
 // Edit history
 	/*	{ "keys": ["super+ctrl+left"], "command": "previous_edit" },
