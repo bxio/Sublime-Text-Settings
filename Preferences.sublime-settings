@@ -29,7 +29,6 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	//"color_scheme": "Packages/Color Scheme/Tomorrow-Night.tmTheme",
 	"color_scheme": "Packages/Color Scheme/Blackboard Black.tmTheme",
 	"copy_with_empty_selection": false,
 	"create_window_at_startup": false,
@@ -97,7 +96,6 @@
 		".bundle",
 		".*-cache"
 	],
-	// "font_face": "Source Code Pro Semibold",
 	"font_face": "Consolas",
 	"font_size": 16.0,
 	"highlight_line": true,
@@ -105,12 +103,12 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"BracketHighlighter",
-		"Themr",
 		"SublimeLinter",
 		"Theme - Soda",
+		"Vintage",
 		"Theme - Flatland",
-		"Vintage"
+		"Themr",
+		"BracketHighlighter"
 	],
 	"indent_guide_options":
 	[

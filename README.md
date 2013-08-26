@@ -1,6 +1,6 @@
 # [Bill Xiong's](http://billxiong.com) [Sublime Text 3](http://www.sublimetext.com/3) Settings
 ---------------------
-[Sublime Text](http://www.sublimetext.com/) is my main editor.
+[Sublime Text](http://www.sublimetext.com/) is my main editor. This is just a backup of my settings, so I can sync across multiple machines. I have fine-tuned these to fit best with my workflow, so feel free to use whatever you find in here.
 
 This is the folder `~/Library/Application Support/Sublime Text 3/Packages/User` on my Mac OS X machine.
 
@@ -102,10 +102,10 @@ Mainly just a port from the python IDE workspace. It's not customized as much be
 More to come.
 
 ## Custom Icons
-I found some lovely replacement icons from [gpopper](http://gpopper.deviantart.com/art/Sublime-Text-Replacement-372504046)
+I found some lovely replacement icons from [gpopper](http://gpopper.deviantart.com/art/Sublime-Text-Replacement-372504046).
 Place these under `Sublime Text.app/Resources` to see them take effect. Every time you update Sublime Text, you'll have to reimport the icons.
 
-Don't forget to rename the icon you want to `Sublime Text.icns`!
+Don't forget to rename the icon you want to take the place of the ugly default icon to `Sublime Text.icns`!
 
 
 
