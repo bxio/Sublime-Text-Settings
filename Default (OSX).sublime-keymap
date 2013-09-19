@@ -1,8 +1,9 @@
 /* originally from https://github.com/bxio/Sublime-Text-Settings */
 [
+	//Useful Shortcuts
 	{ "keys": ["super+."], "command": "open_file", "args": {"file": "${packages}/User/Default (OSX).sublime-keymap"} },
 
-//Selections
+	//Selections
 	{ "keys": ["f1"], "command": "fold" },
 	{ "keys": ["f2"], "command": "unfold" },
 	{ "keys": ["f3"], "command": "expand_selection", "args": {"to": "brackets"} },
@@ -14,6 +15,7 @@
 	// Indent/Reindent
 	{ "keys": ["super+shift+r"], "command": "reindent" , "args": {"single_line": false}},
 	{ "keys": ["super+shift+a"], "command": "alignment" },
+	{ "keys": ["super+shift+c"], "command": "unexpand_tabs", "args": { "set_translate_tabs": false }},
 
 	// Trigger Markdown Preview Plugin with
 	{ "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser"} },
@@ -33,10 +35,10 @@
 
 	{ "keys": ["ctrl+backspace"],"command": "delete_subwords","args": {"forward": false} },
 
+	//forward and backward delete, since I don't have a physical delete button.
 	{ "keys": ["backspace"], "command": "left_delete" },
 	{ "keys": ["shift+backspace"], "command": "right_delete" },
 
-	{ "keys": ["ctrl+k", "ctrl+b"], "command": "toggle_side_bar" },
 	{ "keys": ["f11"], "command": "toggle_full_screen" },
 	{ "keys": ["shift+f11"], "command": "toggle_distraction_free" },
 
@@ -52,7 +54,6 @@
 	{ "keys": ["super+v"], "command": "paste_and_indent" },
 	{ "keys": ["super+shift+v"], "command": "paste" },
 
-	{ "keys": ["super+0"], "command": "reset_font_size" },
 	{ "keys": ["ctrl+o"], "command": "clone_file" },
 
 	// close all other tabs
@@ -86,7 +87,8 @@
 
 // undo and redo
 	{ "keys": ["super+z"], "command": "undo" },
-	{ "keys": ["super+shift+z","super+y"], "command": "redo_or_repeat" },
+	{ "keys": ["super+shift+z"], "command": "redo" },
+	{ "keys": ["super+y"], "command": "redo_or_repeat" },
 	{ "keys": ["super+alt+z","super+u"], "command": "soft_undo"},
 	{ "keys": ["super+alt+shift+z"], "command": "soft_redo"},
 	//Go to Definition (jump to where method is defined)
