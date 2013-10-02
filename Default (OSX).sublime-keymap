@@ -3,6 +3,10 @@
 	//Useful Shortcuts
 	{ "keys": ["super+."], "command": "open_file", "args": {"file": "${packages}/User/Default (OSX).sublime-keymap"} },
 
+	//swap cases
+	{"keys": ["super+k", "super+t"], "command": "title_case"},
+	{"keys": ["super+k", "super+s"], "command": "swap_case"},
+
 	//Selections
 	{ "keys": ["f1"], "command": "fold" },
 	{ "keys": ["f2"], "command": "unfold" },
@@ -41,7 +45,6 @@
 
 	{ "keys": ["f11"], "command": "toggle_full_screen" },
 	{ "keys": ["shift+f11"], "command": "toggle_distraction_free" },
-
 
 // Edit history
 	/*	{ "keys": ["super+ctrl+left"], "command": "previous_edit" },
