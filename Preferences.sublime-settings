@@ -11,17 +11,6 @@
 	],
 	"auto_complete": true,
 	"auto_complete_with_fields": true,
-	"auto_complete_triggers":
-		[
-			{
-				"characters": "<",
-				"selector": "text.html"
-			},
-			{
-				"characters": "/",
-				"selector": "string.quoted.double.html,string.quoted.single.html, source.css"
-			}
-		],
 	"auto_wrap": true,
 	"auto_wrap_break_long_word": true,
 	"auto_wrap_width": 120,
@@ -118,12 +107,12 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Themr",
-		"Theme - Flatland",
-		"Theme - Soda",
+		"SublimeLinter",
 		"BracketHighlighter",
+		"Theme - Flatland",
 		"Vintage",
-		"SublimeLinter"
+		"Theme - Soda",
+		"Themr"
 	],
 	"indent_guide_options":
 	[
@@ -159,7 +148,7 @@
 	"translate_tabs_to_spaces": false,
 	"tree_animation_enabled": false,
 	"trim_automatic_white_space": true,
-	"trim_trailing_white_space_on_save": false,
+	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
 	"vintage_start_in_command_mode": false,
 	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",

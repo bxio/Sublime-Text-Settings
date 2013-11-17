@@ -103,7 +103,7 @@ More to come.
 
 ## Custom Icons
 I found some lovely replacement icons from [gpopper](http://gpopper.deviantart.com/art/Sublime-Text-Replacement-372504046).
-Place these under `Sublime Text.app/Resources` to see them take effect. Every time you update Sublime Text, you'll have to reimport the icons.
+Place these under `Sublime Text.app/Contents/Resources` to see them take effect. Every time you update Sublime Text, you'll have to reimport the icons.
 
 Don't forget to rename the icon you want to take the place of the ugly default icon to `Sublime Text.icns`!
 

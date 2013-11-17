@@ -2,10 +2,12 @@
 [
 	//Useful Shortcuts
 	{ "keys": ["super+."], "command": "open_file", "args": {"file": "${packages}/User/Default (OSX).sublime-keymap"} },
-
+	{ "keys": ["super+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
 	//swap cases
 	{"keys": ["super+k", "super+t"], "command": "title_case"},
 	{"keys": ["super+k", "super+s"], "command": "swap_case"},
+	{ "keys": ["alt+backspace"], "command": "run_macro_file", "args": {"file": "Packages/User/delete_back_subword.sublime-macro"} },
+
 
 	//Selections
 	{ "keys": ["f1"], "command": "fold" },
