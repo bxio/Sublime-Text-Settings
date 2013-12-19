@@ -15,24 +15,12 @@
 	"auto_wrap_break_long_word": true,
 	"auto_wrap_width": 120,
 	"binary_file_patterns":
-	[
-		"*.jpg",
-		"*.jpeg",
-		"*.png",
-		"*.gif",
-		"*.ttf",
-		"*.tga",
-		"*.dds",
-		"*.ico",
-		"*.eot",
-		"*.pdf",
-		"*.swf",
-		"*.jar",
-		"*.zip"
+	["*.jpg","*.jpeg","*.png","*.gif","*.ttf","*.tga","*.dds","*.ico","*.eot","*.pdf","*.swf","*.jar","*.zip",
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
+	"theme": "itg.flat.dark.sublime-theme",
 	"color_scheme": "Packages/Color Scheme/appealr-color-scheme.tmTheme",
 	"copy_with_empty_selection": false,
 	"create_window_at_startup": false,
@@ -49,40 +37,7 @@
 	"fallback_encoding": "UTF-8",
 	"file_exclude_patterns":
 	[
-		".DS_Store",
-		".tags*",
-		"*.a",
-		"*.class",
-		"*.db",
-		"*.dds",
-		"*.dll",
-		"*.dylib",
-		"*.eot",
-		"*.exe",
-		"*.gif",
-		"*.ico",
-		"*.idb",
-		"*.jar",
-		"*.jpeg",
-		"*.jpg",
-		"*.lib",
-		"*.log",
-		"*.ncb",
-		"*.o",
-		"*.obj",
-		"*.pdb",
-		"*.pdf",
-		"*.png",
-		"*.psd",
-		"*.pyc",
-		"*.pyo",
-		"*.sdf",
-		"*.so",
-		"*.suo",
-		"*.swf",
-		"*.tga",
-		"*.ttf",
-		"*.zip"
+		".DS_Store",".tags*","*.a","*.class","*.db","*.eot","*.exe","*.gif","*.ico","*.idb","*.jar","*.jpeg","*.jpg","*.lib","*.log","*.ncb","*.o","*.obj","*.pdb","*.pdf","*.png","*.psd","*.pyc","*.pyo","*.suo","*.ttf","*.zip"
 	],
 	"folder_exclude_patterns":
 	[
@@ -107,12 +62,12 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"SublimeLinter",
-		"BracketHighlighter",
-		"Theme - Flatland",
-		"Vintage",
 		"Theme - Soda",
-		"Themr"
+		"Vintage",
+		"BracketHighlighter",
+		"Themr",
+		"Theme - Flatland",
+		"SublimeLinter"
 	],
 	"indent_guide_options":
 	[
@@ -134,16 +89,14 @@
 	"remember_open_files": false,
 	"rulers":
 	[
-		72,
-		100,
-		120
+		72,120
 	],
 	"save_on_focus_lost": true,
 	"scroll_past_end": true,
 	"show_full_path": true,
 	"soda_classic_tabs": true,
 	"soda_folder_icons": true,
-	"tab_size": 4,
+	"tab_size": 2,
 	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"tree_animation_enabled": false,
