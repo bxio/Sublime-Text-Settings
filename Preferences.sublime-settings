@@ -1,30 +1,43 @@
-/* originally from https://github.com/bxio/Sublime-Text-Settings */
 {
 	"alignment_chars":
 	[
-		"=",":"
+		"=",
+		":"
 	],
 	"alignment_space_chars":
 	[
-		"=",":"
+		"=",
+		":"
 	],
-	"auto_complete": true, //why would you disable one of the defining features of an IDE?
+	"auto_complete": true,
 	"auto_complete_with_fields": true,
 	"auto_wrap": true,
 	"auto_wrap_break_long_word": true,
 	"auto_wrap_width": 120,
 	"binary_file_patterns":
-	["*.jpg","*.jpeg","*.png","*.gif","*.ttf","*.tga","*.dds","*.ico","*.eot","*.pdf","*.swf","*.jar","*.zip",
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"theme": "itg.flat.dark.sublime-theme",
 	"color_scheme": "Packages/Color Scheme/appealr-color-scheme.tmTheme",
 	"copy_with_empty_selection": false,
 	"create_window_at_startup": false,
 	"default_encoding": "UTF-8",
-	"default_font_size": 16.0, //I'm getting old, can't exactly see 12.0 font as easily.
+	"default_font_size": 16.0,
 	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"dictionary": "Packages/Language - English/en_CA.dic",
@@ -36,10 +49,49 @@
 	"fallback_encoding": "UTF-8",
 	"file_exclude_patterns":
 	[
-		".DS_Store",".tags*","*.a","*.class","*.db","*.eot","*.exe","*.gif","*.ico","*.idb","*.jar","*.jpeg","*.jpg","*.lib","*.log","*.ncb","*.o","*.obj","*.pdb","*.pdf","*.png","*.psd","*.pyc","*.pyo","*.suo","*.ttf","*.zip"
+		".DS_Store",
+		".tags*",
+		"*.a",
+		"*.class",
+		"*.db",
+		"*.eot",
+		"*.exe",
+		"*.gif",
+		"*.ico",
+		"*.idb",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.lib",
+		"*.log",
+		"*.ncb",
+		"*.o",
+		"*.obj",
+		"*.pdb",
+		"*.pdf",
+		"*.png",
+		"*.psd",
+		"*.pyc",
+		"*.pyo",
+		"*.suo",
+		"*.ttf",
+		"*.zip"
 	],
 	"folder_exclude_patterns":
-	[".git",".bundle",".sass-cache",".svn",".hg","CVS","build","_build","dist","site","tmp",".bundle",".*-cache"
+	[
+		".git",
+		".bundle",
+		".sass-cache",
+		".svn",
+		".hg",
+		"CVS",
+		"build",
+		"_build",
+		"dist",
+		"site",
+		"tmp",
+		".bundle",
+		".*-cache"
 	],
 	"font_face": "Consolas",
 	"font_size": 17,
@@ -49,17 +101,18 @@
 	"ignored_packages":
 	[
 		"Theme - Soda",
-		"Vintage",
-		"BracketHighlighter",
-		"Themr",
 		"Theme - Flatland",
-		"SublimeLinter"
+		"Themr",
+		"BracketHighlighter",
+		"SublimeLinter",
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
 		"draw_active"
 	],
 	"indent_to_bracket": true,
+	"itg_small_tabs": true,
 	"line_padding_bottom": 1.75,
 	"line_padding_top": 1.75,
 	"match_brackets": true,
@@ -67,40 +120,38 @@
 	"match_brackets_braces": true,
 	"match_brackets_content": true,
 	"match_brackets_square": true,
-	//"mid_line_tabs": true, //Enables Tabs to be put mid line
 	"new_window_settings":
 	{
 		"hide_open_files": true,
 		"show_minimap": true,
 		"show_tabs": true,
 		"side_bar_visible": true,
-		"status_bar_visible": true,
-		//"show_minimap": false,
+		"status_bar_visible": true
 	},
-
 	"open_files_in_new_window": false,
 	"remember_open_files": false,
 	"remember_open_folders": false,
 	"rulers":
 	[
-		72,120
+		72,
+		120
 	],
 	"save_on_focus_lost": true,
 	"scroll_past_end": true,
-	"show_full_path": true, //shows full path in status bar
+	"show_full_path": true,
 	"soda_classic_tabs": true,
 	"soda_folder_icons": true,
-	"tab_size": 2, //should be default for programmers, no?
-	"theme": "Soda Dark 3.sublime-theme",
+	"tab_size": 2,
+	"theme": "itg.flat.dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"use_tab_stops": true,
 	"tree_animation_enabled": false,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
-	"use_simple_full_screen": true, //gotta love Apple's fullscreen...
+	"use_simple_full_screen": true,
+	"use_tab_stops": true,
 	"vintage_start_in_command_mode": false,
-	"wide_caret": true, //Increases Caret width for better visability
+	"wide_caret": true,
 	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",
-	"word_wrap": true, //wrap the words to next line when it exceeds length
+	"word_wrap": true,
 	"wrap_width": 100
 }
