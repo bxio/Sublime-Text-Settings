@@ -100,10 +100,10 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"BracketHighlighter",
 		"Theme - Soda",
 		"Theme - Flatland",
 		"Themr",
-		"BracketHighlighter",
 		"SublimeLinter",
 		"Vintage"
 	],
