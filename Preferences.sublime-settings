@@ -101,11 +101,11 @@
 	"ignored_packages":
 	[
 		"BracketHighlighter",
-		"Theme - Soda",
-		"Theme - Flatland",
 		"Themr",
+		"Theme - Flatland",
+		"Vintage",
 		"SublimeLinter",
-		"Vintage"
+		"Theme - Soda"
 	],
 	"indent_guide_options":
 	[

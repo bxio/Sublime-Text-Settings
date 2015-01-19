@@ -31,7 +31,8 @@
   { "keys": ["super+shift+x"], "command": "expand_tabs", "args": { "set_translate_tabs": false }},
 
   // Markdown Preview Plugin Trigger
-  { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser"} },
+  { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"github"} },
+  { "keys": ["shift+alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
   // Reopen Last Tab
   { "keys": ["super+shift+t"], "command": "reopen_last_file" },
 
