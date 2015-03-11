@@ -33,7 +33,9 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Color Scheme/appealr-color-scheme.tmTheme",
+	"theme": "Afterglow-blue.sublime-theme",
+  "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
+  //"color_scheme": "Packages/Color Scheme/appealr-color-scheme.tmTheme",
 	"copy_with_empty_selection": false,
 	"create_window_at_startup": false,
 	"default_encoding": "UTF-8",
@@ -100,12 +102,12 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"BracketHighlighter",
-		"Themr",
-		"Theme - Flatland",
-		"Vintage",
 		"SublimeLinter",
-		"Theme - Soda"
+		"Themr",
+		"BracketHighlighter",
+		"Theme - Soda",
+		"Vintage",
+		"Theme - Flatland"
 	],
 	"indent_guide_options":
 	[
