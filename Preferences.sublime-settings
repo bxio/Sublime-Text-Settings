@@ -33,9 +33,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"theme": "Afterglow-blue.sublime-theme",
-  "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
-  //"color_scheme": "Packages/Color Scheme/appealr-color-scheme.tmTheme",
+	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
 	"copy_with_empty_selection": false,
 	"create_window_at_startup": false,
 	"default_encoding": "UTF-8",
@@ -96,18 +94,18 @@
 		".*-cache"
 	],
 	"font_face": "Consolas",
-	"font_size": 17,
+	"font_size": 18,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"SublimeLinter",
-		"Themr",
 		"BracketHighlighter",
+		"SublimeLinter",
+		"Theme - Flatland",
 		"Theme - Soda",
-		"Vintage",
-		"Theme - Flatland"
+		"Themr",
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
