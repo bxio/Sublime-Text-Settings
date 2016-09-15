@@ -33,7 +33,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"copy_with_empty_selection": false,
 	"create_window_at_startup": false,
 	"default_encoding": "UTF-8",
@@ -100,13 +100,6 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"BracketHighlighter",
-		"SublimeLinter",
-		"Theme - Flatland",
-		"Theme - Soda",
-		"Themr",
-		"Theme - Flatland",
-		"SublimeLinter",
 		"Vintage"
 	],
 	"indent_guide_options":
@@ -144,7 +137,7 @@
 	"soda_classic_tabs": true,
 	"soda_folder_icons": true,
 	"tab_size": 2,
-	"theme": "itg.flat.dark.sublime-theme",
+	"theme": "Boxy Tomorrow.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": false,
 	"trim_automatic_white_space": true,

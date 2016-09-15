@@ -6,15 +6,24 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"Boxy Theme",
+		"BracketHighlighter",
 		"GitGutter",
 		"Markdown Preview",
+		"Material Theme",
+		"Monokai - Spacegray",
 		"nginx",
 		"Package Control",
 		"PersistentRegexHighlight",
+		"Pretty JSON",
 		"Prolog",
 		"Strapdown Markdown Preview",
 		"SublimeLinter",
 		"Theme - Afterglow",
-		"Theme - Brogrammer",
+		"Theme - itg.flat",
+		"Theme - Lanzhou",
+		"Theme - Monokai",
+		"Theme - Soda",
+		"Theme - Spacegray"
 	]
 }
